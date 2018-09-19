@@ -17,7 +17,7 @@ app.use("/fbcallback", function (req, res, next) {
     console.log("sender: ", senderId);
     console.log("pageId: ", pageId);
 
-    var url = "https://graph.facebook.com/v2.6/me/messages?access_token=EAABhbDy7jmIBAHAn09ZA9wdJXsDquo0aZCTpXIYrbk5qkmgm1WfQ84OoZBcrwxMA1dXjsoGvFdzswX7JSZBCSyZAESR0f2eDqze5E7eoRbmfpJAUjMtqKJrNlVOvnbMbsJpUrkvylBFAwwAlxzV09lB27LlYAy1Yf0hDdIFhhSgZDZD"
+    var url = "https://graph.facebook.com/v2.6/me/messages?access_token=EAAICJsb8v2QBAM1ZBNo295Ei7zlLV0PTgQRpsTrD1PX7ZB87SjwhASHJaUXbYpPvtsfU5YWpQHrZAfJjtonOYvJErk5tJ9TY7C2OspBZA0JzotY02Y611icgKicy3epzJQIx5sIOrrH1o9tGhil6tBhbaMntGTeAZBhatXgZAioAZDZD"
 
     request.post({
         url: url,
